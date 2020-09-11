@@ -46,9 +46,17 @@ module.exports = {
       '/guide/': [
         {
           title: 'Guide',
+          path: '/guide/getting-started/',
           collapsable: false,
           children: [
             'getting-started',
+          ]
+        },
+        {
+          title: 'Model',
+          path: '/guide/model/',
+          collapsable: false,
+          children: [
             'model',
           ]
         }
