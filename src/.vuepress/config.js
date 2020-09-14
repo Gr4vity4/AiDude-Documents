@@ -57,7 +57,7 @@ module.exports = {
           title: "Advance",
           path: "/guide/getting-started/",
           collapsable: false,
-          children: ["getting-started"],
+          children: ["advance/api"],
         },
         {
           title: "Demo Projects",
