@@ -1,10 +1,10 @@
-const { description } = require('../../package')
+const { description } = require("../../package");
 
 module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'AiDude.io',
+  title: "AiDude.io",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,9 +16,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
-    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
+    ],
   ],
 
   /**
@@ -27,48 +30,58 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
+    repo: "",
     editLinks: false,
-    docsDir: '',
-    editLinkText: '',
+    docsDir: "",
+    editLinkText: "",
     lastUpdated: false,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: "Guide",
+        link: "/guide/",
       },
       {
-        text: 'Shop',
-        link: 'https://aiiotshop.com'
-      }
+        text: "Shop",
+        link: "https://aiiotshop.com",
+      },
     ],
     sidebar: {
-      '/guide/': [
+      "/guide/": [
         {
-          title: 'Guide',
-          path: '/guide/getting-started/',
+          title: "Guide",
+          path: "/guide/getting-started/",
           collapsable: false,
-          children: [
-            'getting-started',
-          ]
+          children: ["getting-started"],
         },
         {
-          title: 'Model',
-          path: '/guide/model/',
+          title: "Advance",
+          path: "/guide/getting-started/",
           collapsable: false,
+          children: ["getting-started"],
+        },
+        {
+          title: "Demo Projects",
+          description: "Just playing around",
+          path: "/guide/getting-started/",
+          collapsable: false,
+          initialOpenGroupIndex: -1,
           children: [
-            'model',
-          ]
-        }
+            "demo_project/image_classification",
+            "demo_project/object_detection",
+          ],
+        },
+        {
+          title: "Model",
+          path: "/guide/model/",
+          collapsable: false,
+          children: ["model"],
+        },
       ],
-    }
+    },
   },
 
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-  ]
-}
+  plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"],
+};
