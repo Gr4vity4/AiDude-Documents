@@ -1,4 +1,4 @@
-# Specifications
+# Specification
 
 ![](https://github.com/AiDude-io/CorgiDude/raw/master/images/front-back.png?raw=true)
 
