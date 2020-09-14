@@ -14,7 +14,11 @@
 
 ## IFTTTT
 
+[ยิงข้อมูลจาก CorgiDude เข้า Google Spreadsheet ผ่านทาง IFTTTT](./iftttt/document_1.md)
+
 ## Line
+
+[การใช้งาน CorgiDude + IOT ดัวอย่างการแจ้งเตือนผ่าน LINE Notify](./line/document_1.md)
 
 ## ThingSpeak
 
