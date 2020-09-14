@@ -51,7 +51,7 @@ module.exports = {
           title: "Guide",
           path: "/guide/getting-started/",
           collapsable: false,
-          children: ["getting-started"],
+          children: ["corgidude/specification", "getting-started"],
         },
         {
           title: "Advance",
