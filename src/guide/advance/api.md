@@ -1,5 +1,9 @@
 # API
 
+## SD Card
+
+[CorgiDude บอร์ด กับการใช้งาน อ่านและเขียนไฟล์ใน SD Card](./sd_card/document_1.md)
+
 ## WiFi
 
 [เชื่อมต่อ WiFi กับ CorgiDude! ด้วย MaixPy IDE](./wifi/document_1.md)
