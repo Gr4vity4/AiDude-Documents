@@ -53,7 +53,12 @@ module.exports = {
           path: "/guide/getting-started/",
           collapsable: false,
           sidebarDepth: 2,
-          children: ["corgidude/specification", "getting-started"],
+          activeHeaderLinks: false,
+          children: [
+            "corgidude/specification",
+            "introduction",
+            "getting-started",
+          ],
         },
         {
           title: "Advance",

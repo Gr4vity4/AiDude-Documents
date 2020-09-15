@@ -1,10 +1,10 @@
-# Specification
+# รายละเอียดทางเทคนิคบอร์ด CorgiDude
 
 ![](https://github.com/AiDude-io/CorgiDude/raw/master/images/front-back.png?raw=true)
 
 ![](https://github.com/AiDude-io/CorgiDude/raw/master/images/corgidude-pinout.png?raw=true)
 
-## Module Kendryte K210
+**Module Kendryte K210**
 
 Dual-Core 64-bit RISC-V RV64IMAFDC (RV64GC) CPU / 400Mhz(Normal)</br>
 Dual Independent Double Precision FPU</br>
@@ -18,7 +18,7 @@ Direct Memory Access Controller (DMAC)</br>
 Micropython Support</br>
 Firmware encryption support
 
-## Camera - OV2640
+**Camera - OV2640**
 
 2 Megapixel</br>
 Array size: UXGA 1622X1200</br>
@@ -30,7 +30,7 @@ YUV(422/420)/YCnCr422, RGB565/555</br>
 Max image transfer rate:
 UXGA/SXGA 15fps, UXGA/SXGA 30fps, SVGA 30fps, CIF 60fps
 
-## LCD Display - ST7789
+**LCD Display - ST7789**
 
 1.3″ IPS LCD with wide ±80° viewing angle</br>
 RGB Full color display</br>
@@ -39,7 +39,7 @@ SPI interface w/out CS pin</br>
 ST7789 LCD display controller</br>
 3.3 operation
 
-## WiFi Module ESP8285
+**WiFi Module ESP8285**
 
 Tensilica L106 32-bit MCU</br>
 Wireless Standard 802.11 b/g/n</br>
