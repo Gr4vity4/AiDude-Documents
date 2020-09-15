@@ -1,5 +1,9 @@
 # API
 
+## GPIO
+
+[CorgiDude การใช้งาน GPIO](./gpio/document_1.md)
+
 ## SD Card
 
 [CorgiDude บอร์ด กับการใช้งาน อ่านและเขียนไฟล์ใน SD Card](./sd_card/document_1.md)
