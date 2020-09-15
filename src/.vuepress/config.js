@@ -52,12 +52,17 @@ module.exports = {
           title: "Guide",
           path: "/guide/getting-started/",
           collapsable: false,
-          sidebarDepth: 2,
-          activeHeaderLinks: false,
+          sidebarDepth: 3,
           children: [
             "corgidude/specification",
             "introduction",
-            "getting-started",
+            {
+              title: "เริ่มต้นการใช้งาน",
+              collapsable: false,
+              children: ["document_2", "document_3", "document_1"],
+            },
+
+            // "getting-started",
           ],
         },
         {

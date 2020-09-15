@@ -1,4 +1,4 @@
-# วิธีการลง MAIXPY ใน sipeed maix bit
+# วิธีการลง MAIXPY ใน Sipeed Maix Bit
 
 สวัสดีครับ บทความนี้จะมาพูดถึงเรื่องของ K210 หรือ sipeed maix bit พอดีผมได้ลองใช้งาน MAIXPY ใน k210 นะครับ
 
