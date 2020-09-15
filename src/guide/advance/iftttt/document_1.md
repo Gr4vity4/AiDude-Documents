@@ -1,4 +1,4 @@
-# ยิงข้อมูลจาก CorgiDude เข้า Google Spreadsheet ผ่านทาง IFTTTT
+# การใช้งาน Google Spreadsheet ผ่านทาง IFTTTT
 
 เริ่มต้นด้วยการโหลด library ที่ชื่อว่า urequest.py มาเป็นตัวช่วยสำหรับการทำ HTTTP Request ให้ CorgiDude ของเราครับ ซึ่ง [คลิ๊กเพื่อโหลดได้ที่นี่เลย!](https://gist.github.com/NAzT/5821cacdb98d9eb28d30a597186e4be1/archive/bc072c17109a8be64e7885161516f778cf181464.zip)
 
@@ -159,7 +159,7 @@ else:
 
 ![](https://ff.lnwfile.com/_/ff/_raw/jm/k2/ki.png)
 
-ตอน Request ก็จะได้ข้อมูลแบบนี้ครับ 
+ตอน Request ก็จะได้ข้อมูลแบบนี้ครับ
 
 ![](https://ff.lnwfile.com/_/ff/_raw/f9/dm/jb.jpg)
 

@@ -1,4 +1,4 @@
-# เริ่มต้น IoT กับ CorgiDude ด้วยการสร้าง HTTP Request ด้วย urequests.py
+# การใช้งาน HTTP Request
 
 การเราจะไปทำ IoT Project กับ Corgidude ด้วยโพรโตคอลยอดนิยมกับ MQTT กัน เรามาเริ่มกันแบบง่ายๆไปกับการสร้าง HTTP Request กันนะครับ
 
@@ -126,8 +126,8 @@ res = request.get(url, headers=headers)
 draw_line("status code={}".format(str(res.status_code)))
 ```
 
-ซึ่งโค๊ดด้านบนผมลองเขียน Request ไปที่ IFTTT แต่ว่า ผมไม่ระบุ Token จึงได้ status 401 กลับมานั่นคือ Not authorized นั่นเองครับ 
+ซึ่งโค๊ดด้านบนผมลองเขียน Request ไปที่ IFTTT แต่ว่า ผมไม่ระบุ Token จึงได้ status 401 กลับมานั่นคือ Not authorized นั่นเองครับ
 
 ![](https://ff.lnwfile.com/_/ff/_raw/f1/7s/79.jpg)
 
-โดย ณัฐ วีระวรรณ์ 
+โดย ณัฐ วีระวรรณ์

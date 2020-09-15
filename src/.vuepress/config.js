@@ -73,7 +73,24 @@ module.exports = {
           title: "Advance",
           path: "/guide/getting-started/",
           collapsable: false,
-          children: ["advance/tutorial"],
+          // children: ["advance/tutorial"],
+          children: [
+            {
+              title: "เนื้อหาความสามารถบน CorgiDude",
+              collapsable: false,
+              children: [
+                "advance/gpio/document_1",
+                "advance/sdcard/document_1",
+                "advance/wifi/document_1",
+                "advance/http_request/document_1",
+                "advance/mqtt/document_1",
+                "advance/iftttt/document_1",
+                "advance/line/document_1",
+                "advance/thingspeak/document_1",
+                "advance/google_vision/document_1",
+              ],
+            },
+          ],
         },
         {
           title: "Demo Projects",

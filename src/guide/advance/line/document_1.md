@@ -1,9 +1,9 @@
-# การใช้งาน CorgiDude + IOT ดัวอย่างการแจ้งเตือนผ่าน LINE Notify
+# การใช้งาน LINE Notify
 
 **สำหรับบทความนี้ เราจะลองมาใช้ LINE notify จาก CorgiDude ด้วย** library Corgi85 กันนะครับ
 
 ก่อนอื่นเพื่อนๆ จะต้องทำการอัพเกรดเฟิร์มแวร์ CorgiDude และโปรแกรม library Corgi85 ลงใน ESP 8285 ก่อน โดยสามารถดูรายละเอียดได้จาก [https://www.aiiotshop.com/b/22](https://www.aiiotshop.com/b/22)
-จากนั้นเพื่อนๆก็ต้องสร้างตัว LINE bot ซึ่งจะเชื่อมต่อกับ LINE ID ของเรา โดยจะทำให้เราสามารถแจ้งเตือนในกลุ่มที่เราแอด bot เข้าไปด้วยได้ สามารถดูรายละเอียดเพิ่มได้ที่ [https://www.aiiotshop.com/article/21/](https://www.aiiotshop.com/article/21/) [https://notify-bot.line.me/en/](https://notify-bot.line.me/en/) (เมื่อทำการสร้างตัว LINE bot เรียบร้อยแล้ว เราจะต้องใช้ตัวรหัส token ในการใช้งาน) โดยวิธีการดังนี้**
+จากนั้นเพื่อนๆก็ต้องสร้างตัว LINE bot ซึ่งจะเชื่อมต่อกับ LINE ID ของเรา โดยจะทำให้เราสามารถแจ้งเตือนในกลุ่มที่เราแอด bot เข้าไปด้วยได้ สามารถดูรายละเอียดเพิ่มได้ที่ [https://www.aiiotshop.com/article/21/](https://www.aiiotshop.com/article/21/) [https://notify-bot.line.me/en/](https://notify-bot.line.me/en/) (เมื่อทำการสร้างตัว LINE bot เรียบร้อยแล้ว เราจะต้องใช้ตัวรหัส token ในการใช้งาน) โดยวิธีการดังนี้\*\*
 
 เปิดเว็ป [https://notify-bot.line.me/en/](https://notify-bot.line.me/en/) ทำการสแกน QR Code เพิ่ม "LINE Notify" เป็นเพื่อน
 
@@ -21,7 +21,7 @@
 
 ![](https://ff.lnwfile.com/_/ff/_raw/6q/7u/ha.png)
 
-**ตั้งชื่อให้ LINE bot และกลุ่มแชทที่ต้องการให้แจ้งเตือน โดยผมจะเลือกเป็น 1-no-1 เพื่อทำการทดสอบ** ***\*กด "Generate token"\****
+**ตั้งชื่อให้ LINE bot และกลุ่มแชทที่ต้องการให้แจ้งเตือน โดยผมจะเลือกเป็น 1-no-1 เพื่อทำการทดสอบ** **\*\*กด "Generate token"\*\***
 
 ![](https://ff.lnwfile.com/_/ff/_raw/vn/dd/bp.png)
 
@@ -29,7 +29,7 @@
 
 ![](https://ff.lnwfile.com/_/ff/_raw/ua/em/r6.png)
 
-**เมื่อเราได้รหัส** ***\*token มาแล้วก็สามารถเอามาใช้ใน code micropython ที่ใช้ใน\**** ***\*CorgiDude ได้เลย\** โดย ตัวอย่าง code เป็นแบบนี้ครับ ([รายละเอียดเพิ่มเติม LINK](https://www.aiiotshop.com/b/2))**
+**เมื่อเราได้รหัส** **\*\*token มาแล้วก็สามารถเอามาใช้ใน code micropython ที่ใช้ใน\*\*** **\*\*CorgiDude ได้เลย\*\* โดย ตัวอย่าง code เป็นแบบนี้ครับ ([รายละเอียดเพิ่มเติม LINK](https://www.aiiotshop.com/b/2))**
 
 ```python
 import sensor, image, time, lcd
@@ -137,4 +137,3 @@ corgi85.LINE_notifySticker_text("Hello From CorgiDude", 1, 1) #detail :  https:/
 ```
 
 **เท่านี้เพื่อนๆก็สามารถแจ้งเตือนผ่าน LINE ด้วย CorgiDude ได้แล้วครับ**
-

@@ -1,11 +1,11 @@
-# เชื่อมต่อ MQTT ไปกับ CorgiDude
+# การใช้งาน MQTT
 
 หลังจากที่เรา [เริ่มต้น IoT กับ CorgiDude ด้วยการสร้าง HTTP Request ด้วย urequests.py ](https://www.aiiotshop.com/article/8/เริ่มต้น-iot-กับ-corgidude-ด้วยการสร้าง-http-request-ด้วย-urequests-py)กันไปแล้ว
-คราวนี้มาถึงคิว MQTT โพรโตคอลยอดนิยมกันแล้วครับ!! 
+คราวนี้มาถึงคิว MQTT โพรโตคอลยอดนิยมกันแล้วครับ!!
 
 ![](https://ff.lnwfile.com/_/ff/_raw/ko/ds/xd.png)
 
-ใน CorgiDude มี chip ESP8285 อยู่ด้วย แต่ Firmware ข้างในเป็นรุ่น AT-Command แต่ว่าไม่ใช่ปัญหาแต่อย่างใด เนื่องจากทาง MaixPy Firmware เอง ได้ implement usocket มาให้เราแล้ว... เราจึงสามารถใช้งาน mqtt library ของ micropython ได้เลยครับ 
+ใน CorgiDude มี chip ESP8285 อยู่ด้วย แต่ Firmware ข้างในเป็นรุ่น AT-Command แต่ว่าไม่ใช่ปัญหาแต่อย่างใด เนื่องจากทาง MaixPy Firmware เอง ได้ implement usocket มาให้เราแล้ว... เราจึงสามารถใช้งาน mqtt library ของ micropython ได้เลยครับ
 
 เริ่มต้นด้วยการ ดาวน์โหลดไฟล์ umqtt.py กันก่อนได้ [โดยการคลิ๊กที่นี่](https://gist.github.com/NAzT/b564e5576e674defa3cfd0ebc08a7af8/archive/0c9ab95dc69a4d142c5882090be5e9b6fe07b7cf.zip)
 
