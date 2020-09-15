@@ -35,6 +35,7 @@ module.exports = {
     docsDir: "",
     editLinkText: "",
     lastUpdated: false,
+    displayAllHeaders: true,
     nav: [
       {
         text: "Guide",
@@ -51,13 +52,14 @@ module.exports = {
           title: "Guide",
           path: "/guide/getting-started/",
           collapsable: false,
+          sidebarDepth: 2,
           children: ["corgidude/specification", "getting-started"],
         },
         {
           title: "Advance",
           path: "/guide/getting-started/",
           collapsable: false,
-          children: ["advance/api"],
+          children: ["advance/tutorial"],
         },
         {
           title: "Demo Projects",
