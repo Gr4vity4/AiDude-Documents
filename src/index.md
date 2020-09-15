@@ -3,7 +3,7 @@ home: true
 heroImage: https://ff.lnwfile.com/3i2z39.jpg
 tagline:
 actionText: Documents →
-actionLink: /guide/getting-started
+actionLink: /guide/corgidude/introduction
 # features:
 #   - title: Feature 1 Title
 #     details: Feature 1 Description
