@@ -22,4 +22,8 @@
 
 ## ThingSpeak
 
+[ตัวอย่างการใช้งาน CorgiDude เก็บข้อมูลเมื่อตรวจเจอใบหน้าคนด้วย ThingSpeak](./thingspeak/document_1.md)
+
 ## Google Vision
+
+[ตัวอย่างการอ่านป้ายทะเบียนรถด้วย Google Vision](./google_vision/document_1.md)
