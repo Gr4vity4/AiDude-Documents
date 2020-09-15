@@ -55,11 +55,15 @@ module.exports = {
           sidebarDepth: 3,
           children: [
             "corgidude/specification",
-            "introduction",
+            "corgidude/introduction",
             {
               title: "เริ่มต้นการใช้งาน",
               collapsable: false,
-              children: ["document_2", "document_3", "document_1"],
+              children: [
+                "installation/document_2",
+                "installation/document_3",
+                "installation/document_1",
+              ],
             },
 
             // "getting-started",
