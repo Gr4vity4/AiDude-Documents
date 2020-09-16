@@ -55,7 +55,11 @@ module.exports = {
           sidebarDepth: 3,
           children: [
             "corgidude/specification",
-            "corgidude/introduction",
+            {
+              title: "บอร์ด CorgiDude (คอร์กี้ดู๊ด) คืออะไร",
+              collapsable: false,
+              children: ["corgidude/introduction"],
+            },
             {
               title: "เริ่มต้นการใช้งาน",
               collapsable: false,
