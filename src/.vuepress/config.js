@@ -76,6 +76,22 @@ module.exports = {
           // children: ["advance/tutorial"],
           children: [
             {
+              title: "เนื้อหาบทเรียน CorgiDude",
+              collapsable: false,
+              children: [
+                "lessons/ep1",
+                "lessons/ep2",
+                "lessons/ep3",
+                "lessons/ep4",
+                "lessons/ep5",
+                "lessons/ep6",
+                "lessons/ep7",
+                "lessons/ep8",
+                "lessons/ep9",
+                "lessons/ep10",
+              ],
+            },
+            {
               title: "เนื้อหาความสามารถบน CorgiDude",
               collapsable: false,
               children: [
