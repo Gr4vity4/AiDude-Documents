@@ -118,8 +118,28 @@ module.exports = {
           path: "/guide/getting-started/",
           collapsable: false,
           children: [
-            "demo_project/image_classification",
-            "demo_project/object_detection",
+            {
+              title: "ตัวอย่างโปรเจค Image Classification",
+              collapsable: false,
+              children: [
+                "demo_project/image_classification/document_1",
+                "demo_project/image_classification/document_2",
+              ],
+            },
+            {
+              title: "ตัวอย่างโปรเจค Object Detection",
+              collapsable: false,
+              children: [
+                "demo_project/object_detection/document_1",
+                "demo_project/object_detection/document_2",
+                "demo_project/object_detection/document_3",
+                "demo_project/object_detection/document_4",
+                "demo_project/object_detection/document_5",
+                "demo_project/object_detection/document_6",
+              ],
+            },
+            // "demo_project/image_classification",
+            // "demo_project/object_detection",
           ],
         },
         {
