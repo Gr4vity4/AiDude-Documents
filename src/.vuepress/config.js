@@ -110,6 +110,16 @@ module.exports = {
                 "advance/google_vision/document_1",
               ],
             },
+            {
+              title: "เนื้อหาโมดูลการต่อใช้งานบน CorgiDude",
+              collapsable: false,
+              children: [
+                "modules/button_switch",
+                "modules/drive_motor",
+                "modules/gpio_input",
+                "modules/servo_motor",
+              ],
+            },
           ],
         },
         {
