@@ -148,8 +148,15 @@ module.exports = {
                 "demo_project/object_detection/document_6",
               ],
             },
-            // "demo_project/image_classification",
-            // "demo_project/object_detection",
+            {
+              title: "ตัวอย่างโปรเจค Face Recognition",
+              collapsable: false,
+              children: [
+                "demo_project/face_recognition/ep1",
+                "demo_project/face_recognition/ep2",
+                "demo_project/face_recognition/ep3",
+              ],
+            },
           ],
         },
         {
