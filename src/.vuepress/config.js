@@ -155,6 +155,7 @@ module.exports = {
                 "demo_project/face_recognition/ep1",
                 "demo_project/face_recognition/ep2",
                 "demo_project/face_recognition/ep3",
+                "demo_project/face_recognition/ep4",
               ],
             },
           ],
