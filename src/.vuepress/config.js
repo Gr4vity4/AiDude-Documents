@@ -42,6 +42,10 @@ module.exports = {
         link: "/guide/",
       },
       {
+        text: "AiDude-IDE",
+        link: "https://ide.aidude.io",
+      },
+      {
         text: "Shop",
         link: "https://aiiotshop.com",
       },
