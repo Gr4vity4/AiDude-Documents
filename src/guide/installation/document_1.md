@@ -1,6 +1,6 @@
 # การใช้งาน MaixPy IDE เบื้องต้น
 
-สวัสดีครับ หลังจากที่เราได้ อับโหลดโปรแกรม MaixPy.bin ลงไปยัง CorgiDude บอร์ด แล้ว แปลว่า CorgiDude บอร์ด นั้นก็สามารถรัน micropython ได้แล้วผ่านทาง serial port ที่ได้ต่อกับคอมพิวเตอร์ของเรานะครับ เราสามารถพิมพ์คำสั่งผ่านทาง serial port ได้เลยครับ แต่มันก็ยากอยู่ดีทาง sipeed ก็ได้ทำ IDE ขึ้นมา ชื่อว่า MaixPy IDE โหลดได้จากที่นี้ [https://dl.sipeed.com/shareURL/MAIX/MaixPy/ide/v0.2.5](https://dl.sipeed.com/shareURL/MAIX/MaixPy/ide/v0.2.5) อาจจะช้าหน่อยนะครับ พอลงเสร็จก็จะได้ maixpyide.exe มานะครับ ก็เข้าโปรแกรมได้เลยครับ
+สวัสดีครับ หลังจากที่เราได้ อัพโหลดโปรแกรม MaixPy.bin ลงไปยัง CorgiDude บอร์ด แล้ว แปลว่า CorgiDude บอร์ด นั้นก็สามารถรัน micropython ได้แล้วผ่านทาง serial port ที่ได้ต่อกับคอมพิวเตอร์ของเรานะครับ เราสามารถพิมพ์คำสั่งผ่านทาง serial port ได้เลยครับ แต่มันก็ยากอยู่ดีทาง sipeed ก็ได้ทำ IDE ขึ้นมา ชื่อว่า MaixPy IDE โหลดได้จากที่นี้ [https://dl.sipeed.com/shareURL/MAIX/MaixPy/ide/v0.2.5](https://dl.sipeed.com/shareURL/MAIX/MaixPy/ide/v0.2.5) อาจจะช้าหน่อยนะครับ พอลงเสร็จก็จะได้ maixpyide.exe มานะครับ ก็เข้าโปรแกรมได้เลยครับ
 
 ![](https://ff.lnwfile.com/_/ff/_raw/vk/rb/a9.jpg)
 
